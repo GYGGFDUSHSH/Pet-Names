@@ -28,18 +28,18 @@ def main():
 
     if pet == 1:
         if gender == 1:
-            name = dog_names.Name.random(gender='male')
+            name = dog_names.random(gender='male')
         elif gender == 2:
-            name = dog_names.Name.random(gender='female')
+            name = dog_names.random(gender='female')
         else:
-            name = dog_names.Name.random()
+            name = dog_names.random()
     else:
         if gender == 1:
-            name = cat_names.Name.random(gender='male')
+            name = cat_names.random(gender='male')
         elif gender == 2:
-            name = cat_names.Name.random(gender='female')
+            name = cat_names.random(gender='female')
         else:
-            name = cat_names.Name.random()
+            name = cat_names.random()
 
     print('\nName :- '+name)
 
