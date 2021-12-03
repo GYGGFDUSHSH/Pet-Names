@@ -10,8 +10,8 @@ Enter option number:- '''
 
 gender_text = '''Which gender pet name you want?
 
-[1] random
-[2] Ferandom
+[1] Male
+[2] Female
 [3] Any
 
 Enter option number :- '''
